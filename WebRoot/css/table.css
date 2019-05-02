@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+h1{background-color:blue;border-width: thick;}
+.GreenDiv{background-color:Green;}
+/** 更改每行的颜色**/
+/**table.tr{background-color:blue;}**/
+table tr:nth-child(odd){background: #EAEAEA;}
+/*修改表格的样式*/
+table{background: #EAEAEA;margin-left: 0px auto;margin-right: 0px auto;border-collapse: collapse;}
+/**th,td{height: 25px;line-height: 25px;text-align: center;border: 1px solid #ccc;}**/
+th, td {height:40px;line-height:25px;text-align:center;border:1px solid #EAEAEA;}
+th{background: #7CCD7C;font-weight: normal;}
+tr{background: #fff;}
+tr:hover{background: #7CCD7C;}
+td a{color: #06f;text-decoration: none;}
+td a:hove{color: #06f;text-decoration: underline;}
